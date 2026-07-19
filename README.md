@@ -41,7 +41,7 @@ The pipeline is a single cohesive class, `JpxDelisted`, orchestrated by
 |---|---|---|
 | 1 | `fetch_page()` | GET the JPX page, parse HTML with BeautifulSoup |
 | 2 | `find_delisted_table()` | Locate the "Securities to Be Delisted" section, extract one record per security |
-| 3 | `batch()` | Download all PDFs and extract each delisting date (regex over pdfplumber text) |
+| 3 | `batch()` | Download all PDFs and extract each delisting date |
 | 4 | `dataframe()` | Build the sorted pandas report and export to Excel |
 
 Configuration (URLs, timeout, worker count) is centralised in a `Params` class.
