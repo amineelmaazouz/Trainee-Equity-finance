@@ -1,7 +1,7 @@
 # JPX — Securities to Be Delisted Dashboard
 
 Jupyter-based report listing all securities scheduled to be delisted from the
-Japan Exchange Group (JPX), built for a trading assessment exercise.
+Japan Exchange Group (JPX).
 
 The pipeline scrapes the third section of the
 [JPX supervision page](https://www.jpx.co.jp/english/listing/market-alerts/supervision/index.html),
