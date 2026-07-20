@@ -1,4 +1,4 @@
-# JPX — Securities to Be Deliste
+# JPX — Securities to Be Delisted
 
 Jupyter-based report listing all securities scheduled to be delisted from the
 Japan Exchange Group (JPX).
